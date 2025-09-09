@@ -2,10 +2,10 @@ import mysql from "mysql2/promise";
 
 // create a connection pool 
 const pool = mysql.createPool({
-  host: "localhost",     // your MySQL host
-  user: "root",          // your MySQL username
-  password: "Chai_2006",  // your MySQL password
-  database: "school_db", // your DB name
+  host: "localhost",     
+  user: "root",          
+  password: "Chai_2006",  
+  database: "school_db", 
 });
 console.log("Connected to MySQL database");
 
